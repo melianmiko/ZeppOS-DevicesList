@@ -171,12 +171,27 @@
   {
     "id": "gtr4",
     "deviceName": "GTR 4",
-    "alernativeDeviceNames": [
-      "Amazfit GTR 4 LE"
-    ],
     "deviceSource": [
       7930112,
       7930113
+    ],
+    "chipset": "nxp",
+    "screenShape": "round",
+    "screenWidth": 466,
+    "screenHeight": 466,
+    "screenRadius": 233,
+    "iconSize": 248,
+    "physicalKeysCount": 2,
+    "watchfacePreviewWidth": 314,
+    "watchfacePreviewHeight": 314,
+    "osVersion": 2.1
+  },
+  {
+    "id": "gtr4le",
+    "deviceName": "GTR 4 Limited edition",
+    "deviceSource": [
+      7864576,
+      7864577
     ],
     "chipset": "nxp",
     "screenShape": "round",
