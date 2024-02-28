@@ -2,7 +2,7 @@
   {
     "id": "active_edge",
     "deviceName": "Amazfit Active Edge",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8388864,
       8388865
@@ -16,12 +16,11 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 243,
     "watchfacePreviewHeight": 243,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "active",
     "deviceName": "Amazfit Active",
-    "alernativeDeviceNames": [],
     "deviceSource": [
       8323328
     ],
@@ -34,12 +33,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "balance",
     "deviceName": "Amazfit Balance",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8519936,
       8519937,
@@ -54,12 +53,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": 3
+    "osVersion": "3.5.0"
   },
   {
     "id": "bip5",
     "deviceName": "Bip 5",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8454401
     ],
@@ -72,12 +71,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 200,
     "watchfacePreviewHeight": 238,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "trex_ultra",
     "deviceName": "T-Rex Ultra",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       6553856,
       6553857
@@ -91,12 +90,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "cheetah",
     "deviceName": "Cheetah",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8192256,
       8192257
@@ -110,12 +109,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "cheetah_pro",
     "deviceName": "Cheetah Pro",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8126720,
       8126721
@@ -129,12 +128,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "cheetah_square",
     "deviceName": "Cheetah Square",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       8257793
     ],
@@ -147,12 +146,12 @@
     "physicalKeysCount": 3,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "gtr_mini",
     "deviceName": "GTR mini",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       250,
       251
@@ -166,11 +165,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": 2
+    "osVersion": "2.0.0"
   },
   {
     "id": "gtr4",
     "deviceName": "GTR 4",
+    "alternativeDeviceNames": [],
     "deviceSource": [
       7930112,
       7930113
@@ -184,11 +184,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": 2.1
+    "osVersion": "3.0.0"
   },
   {
     "id": "gtr4le",
     "deviceName": "GTR 4 Limited edition",
+    "alternativeDeviceNames": [],
     "deviceSource": [
       7864576,
       7864577
@@ -202,12 +203,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "gts4",
     "deviceName": "GTS 4",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       7995648,
       7995649
@@ -221,12 +222,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "gts4mini",
     "deviceName": "GTS 4 mini",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       246,
       247
@@ -240,12 +241,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 228,
     "watchfacePreviewHeight": 260,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   },
   {
     "id": "falcon",
     "deviceName": "Falcon",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       414,
       415
@@ -259,12 +260,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "band7",
     "deviceName": "Amazfit Band 7",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       252,
       253,
@@ -279,12 +280,12 @@
     "physicalKeysCount": 0,
     "watchfacePreviewWidth": 152,
     "watchfacePreviewHeight": 288,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   },
   {
     "id": "gtr3pro",
     "deviceName": "GTR 3 Pro",
-    "alernativeDeviceNames": [
+    "alternativeDeviceNames": [
       "Amazfit GTR 3 Pro LTD"
     ],
     "deviceSource": [
@@ -301,12 +302,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   },
   {
     "id": "gtr3",
     "deviceName": "GTR 3",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       226,
       227
@@ -320,12 +321,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   },
   {
     "id": "gts3",
     "deviceName": "GTS 3",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       224,
       225
@@ -339,12 +340,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   },
   {
     "id": "trex2",
     "deviceName": "T-Rex 2",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       418,
       419
@@ -358,12 +359,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": 2.1
+    "osVersion": "2.1.0"
   },
   {
     "id": "mi_band7",
     "deviceName": "Mi Band 7",
-    "alernativeDeviceNames": [],
+    "alternativeDeviceNames": [],
     "deviceSource": [
       260,
       261,
@@ -382,6 +383,6 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 128,
     "watchfacePreviewHeight": 327,
-    "osVersion": 1
+    "osVersion": "1.0.0"
   }
 ]

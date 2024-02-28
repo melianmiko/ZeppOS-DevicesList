@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/melianmiko/ZeppOS-DevicesList/raw/main/schema.json",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "deviceName",
+      "deviceSource",
+      "chipset",
+      "screenShape",
+      "screenWidth",
+      "screenHeight",
+      "screenRadius",
+      "iconSize",
+      "physicalKeysCount",
+      "watchfacePreviewWidth",
+      "watchfacePreviewHeight",
+      "osVersion"
+    ],
+    "properties": {
+      "id": {
+        "description": "Short model identifier",
+        "type": "string"
+      },
+      "deviceName": {
+        "description": "Full device name, would be better if it will match with deviceName from getDeviceInfo()",
+        "type": "string"
+      },
+      "chipset": {
+        "description": "Device chipset vendor",
+        "type": "string"
+      },
+      "screenShape": {
+        "description": "Screen shape (round/square/band",
+        "type": "string"
+      },
+      "screenWidth": {
+        "description": "Screen resolution width",
+        "type": "integer"
+      },
+      "screenHeight": {
+        "description": "Screen resolution height",
+        "type": "integer"
+      },
+      "screenRadius": {
+        "description": "Screen round radius",
+        "type": "integer"
+      },
+      "iconSize": {
+        "description": "Recomended app icon size",
+        "type": "integer"
+      },
+      "physicalKeysCount": {
+        "description": "Count of physical buttons",
+        "type": "integer"
+      },
+      "watchfacePreviewWidth": {
+        "description": "Recommended watchface preview width",
+        "type": "integer"
+      },
+      "watchfacePreviewHeight": {
+        "description": "Recommended watchface preview height",
+        "type": "integer"
+      },
+      "osVersion": {
+        "description": "Latest ZeppOS version",
+        "type": "string"
+      }
+    }
+  }
+}
