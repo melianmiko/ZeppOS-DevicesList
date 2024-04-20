@@ -234,7 +234,7 @@
     ],
     "chipset": "dialog",
     "screenShape": "square",
-    "screenWidth": 366,
+    "screenWidth": 336,
     "screenHeight": 384,
     "screenRadius": 80,
     "iconSize": 80,
