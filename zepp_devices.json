@@ -158,8 +158,8 @@
     "deviceSource": [
       8257793
     ],
-    "chipset": "",
-    "screenShape": "",
+    "chipset": "nxp",
+    "screenShape": "square",
     "screenWidth": 390,
     "screenHeight": 450,
     "screenRadius": 86,
