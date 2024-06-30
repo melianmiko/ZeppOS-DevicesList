@@ -21,7 +21,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230915/171394063cc05d02064141539f7cb4d7.png"
   },
   {
     "id": "active",
@@ -44,7 +45,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230724/cd16b5ae52523d60c6ba9eefc2399cc7.png"
   },
   {
     "id": "balance",
@@ -70,7 +72,8 @@
       257,
       259
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230725/5b09b731289b8e1c128ef508eadfafd3.png"
   },
   {
     "id": "bip5",
@@ -94,7 +97,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230612/bb504247c5b58f0a9cdff26c39eb9370.png"
   },
   {
     "id": "bip5unity",
@@ -120,7 +124,8 @@
       264,
       265
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/dial/20240304/56b66e3b8f8fa0a70aa9acb328f87f57.png"
   },
   {
     "id": "trex_ultra",
@@ -144,7 +149,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20221121/8ca5b3db6c3e74b8950cfb599919b623.png"
   },
   {
     "id": "cheetah",
@@ -168,7 +174,8 @@
       null,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230423/60dae1269ead3d133593528e06fe629d.png"
   },
   {
     "id": "cheetah_pro",
@@ -192,7 +199,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230510/6ed99283128745a17fc1488f66190f88.png"
   },
   {
     "id": "cheetah_square",
@@ -214,7 +222,8 @@
     "productionId": [
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230529/ad495f89d55975183c96a138b2c5236a.png"
   },
   {
     "id": "gtr_mini",
@@ -238,7 +247,8 @@
       null,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230310/df4dde8c6d0b884020b610809191621d.png"
   },
   {
     "id": "gtr4",
@@ -262,7 +272,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20221013/e23053e4e5ad240ff23d167d69693b27.png"
   },
   {
     "id": "gtr4le",
@@ -286,7 +297,8 @@
       null,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/20230202/d2cb455958160f39fe56e7b241053c21.png"
   },
   {
     "id": "gts4",
@@ -310,7 +322,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220802/f93422995a5b2b84baece4fa196e2cdf.png"
   },
   {
     "id": "gts4mini",
@@ -334,7 +347,8 @@
       256,
       259
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220513/a84b4dbfbc16f13bb0276b076016d539.png"
   },
   {
     "id": "falcon",
@@ -358,7 +372,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20211227/b513c7e72946fe696df07efe0d7d971c1640590095840.png"
   },
   {
     "id": "band7",
@@ -384,7 +399,8 @@
       null,
       259
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220513/113e439a345ec56823495f8346699667.png"
   },
   {
     "id": "gtr3pro",
@@ -412,7 +428,8 @@
       257,
       258
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220418/b621d452e7aff61cbf9814a5fec872dc.png"
   },
   {
     "id": "gtr3",
@@ -436,7 +453,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20210830/21d6fb0c1b30a1bf5e934263011469761630305167018.png"
   },
   {
     "id": "gts3",
@@ -460,7 +478,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20210830/2b4863a69912a02a36dfe276e16ac0341630305225993.png"
   },
   {
     "id": "trex2",
@@ -484,7 +503,8 @@
       256,
       257
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220407/5027638535747bc0f5541d9868bc9a78.png"
   },
   {
     "id": "mi_band7",
@@ -518,6 +538,7 @@
       261,
       null
     ],
-    "application": "com.xiaomi.hm.health"
+    "application": "com.xiaomi.hm.health",
+    "deviceImage": "https://img-cdn.huami.com/20221011/51b8df8838155dca92f962de9b690340.png"
   }
 ]

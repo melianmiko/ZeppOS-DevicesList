@@ -13,6 +13,16 @@ def get_with_retries(*args, **kwargs):
     raise Exception("Request failed after 3 retires")
 
 
+def get_app_versions(application):
+    app_version = {
+        "com.xiaomi.hm.health": "6.9.7_50764",
+        "com.huami.midong": "8.5.2-play_151214",
+    }[application]
+    app_version_iv = "_".join(list(app_version.split("_")[::-1]))
+
+    return application, app_version_iv
+
+
 FETCH_FW_HEADERS = {
     "apptoken": "0",
     "appplatform": "android_phone",

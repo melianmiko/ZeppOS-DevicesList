@@ -1,14 +1,9 @@
 import json
-from rq import FETCH_FW_EXTRA_QUERY, FETCH_FW_HEADERS, get_with_retries
+from rq import FETCH_FW_EXTRA_QUERY, FETCH_FW_HEADERS, get_with_retries, get_app_versions
 
 
 def fetch_latest_release(device, production, application):
-    app_version = {
-        "com.xiaomi.hm.health": "6.9.7_50764",
-        "com.huami.midong": "8.5.2-play_151214",
-    }[application]
-    app_version_iv = "_".join(list(app_version.split("_")[::-1]))
-
+    application, app_version_iv = get_app_versions(application)
     return get_with_retries(f"https://api.amazfit.com/devices/ALL/hasNewVersion"
                             f"?productionSource={production}"
                             f"&deviceSource={device}"
