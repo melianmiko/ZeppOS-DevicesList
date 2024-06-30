@@ -16,13 +16,19 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 243,
     "watchfacePreviewHeight": 243,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "active",
     "deviceName": "Amazfit Active",
     "deviceSource": [
-      8323328
+      8323328,
+      8323329
     ],
     "chipset": "apollo",
     "screenShape": "square",
@@ -33,7 +39,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "2.1.0"
+    "osVersion": "3.5.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "balance",
@@ -53,7 +64,13 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "3.5.0"
+    "osVersion": "3.5.0",
+    "productionId": [
+      256,
+      257,
+      259
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "bip5",
@@ -72,7 +89,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 200,
     "watchfacePreviewHeight": 238,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "bip5unity",
@@ -92,7 +114,13 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 200,
     "watchfacePreviewHeight": 238,
-    "osVersion": "3.0.0"
+    "osVersion": "3.0.0",
+    "productionId": [
+      257,
+      264,
+      265
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "trex_ultra",
@@ -111,7 +139,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "cheetah",
@@ -130,7 +163,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "2.1.0"
+    "osVersion": "3.5.0",
+    "productionId": [
+      null,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "cheetah_pro",
@@ -149,7 +187,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "cheetah_square",
@@ -167,7 +210,11 @@
     "physicalKeysCount": 3,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gtr_mini",
@@ -186,7 +233,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": "2.0.0"
+    "osVersion": "2.0.0",
+    "productionId": [
+      null,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gtr4",
@@ -205,7 +257,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "3.0.0"
+    "osVersion": "3.0.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gtr4le",
@@ -224,7 +281,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      null,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gts4",
@@ -243,7 +305,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gts4mini",
@@ -262,7 +329,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 228,
     "watchfacePreviewHeight": 260,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      256,
+      259
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "falcon",
@@ -281,7 +353,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "band7",
@@ -301,7 +378,13 @@
     "physicalKeysCount": 0,
     "watchfacePreviewWidth": 152,
     "watchfacePreviewHeight": 288,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      null,
+      null,
+      259
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gtr3pro",
@@ -323,7 +406,13 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      256,
+      257,
+      258
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gtr3",
@@ -342,7 +431,12 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "gts3",
@@ -361,7 +455,12 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "trex2",
@@ -380,7 +479,12 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "2.1.0"
+    "osVersion": "2.1.0",
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "mi_band7",
@@ -404,6 +508,16 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 128,
     "watchfacePreviewHeight": 327,
-    "osVersion": "1.0.0"
+    "osVersion": "1.0.0",
+    "productionId": [
+      256,
+      257,
+      258,
+      259,
+      260,
+      261,
+      null
+    ],
+    "application": "com.xiaomi.hm.health"
   }
 ]
