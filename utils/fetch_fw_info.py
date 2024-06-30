@@ -1,9 +1,12 @@
 import json
+import sys
 from rq import FETCH_FW_EXTRA_QUERY, FETCH_FW_HEADERS, get_with_retries, get_app_versions
+
+filename = sys.argv[1]
 
 
 def fetch_latest_release(device, production, application):
-    application, app_version_iv = get_app_versions(application)
+    app_version, app_version_iv = get_app_versions(application)
     return get_with_retries(f"https://api.amazfit.com/devices/ALL/hasNewVersion"
                             f"?productionSource={production}"
                             f"&deviceSource={device}"
@@ -16,7 +19,7 @@ def fetch_latest_release(device, production, application):
                             }).json()
 
 
-with open("zepp_devices.json", "r") as f:
+with open(filename, "r") as f:
     zepp_devices = json.load(f)
 
 for device in zepp_devices:
@@ -38,5 +41,5 @@ for device in zepp_devices:
             print("Not found")
 
 
-with open("zepp_devices.json", "w") as f:
+with open(filename, "w") as f:
     json.dump(zepp_devices, f, indent=2)

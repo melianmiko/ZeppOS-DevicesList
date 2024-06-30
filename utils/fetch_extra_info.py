@@ -1,8 +1,8 @@
 import json
+import sys
 from rq import get_with_retries, get_app_versions
 
-with open("test_auth.json", "r") as f:
-    auth_data = json.load(f)
+filename = sys.argv[1]
 
 
 def fetch_top(app: str, device_source: str, entry_type: str, page=1):
@@ -29,7 +29,9 @@ def fetch_top(app: str, device_source: str, entry_type: str, page=1):
     return data["data"]
 
 
-with open("zepp_devices.json", "r") as f:
+with open("test_auth.json", "r") as f:
+    auth_data = json.load(f)
+with open(filename, "r") as f:
     zepp_devices = json.load(f)
 
 for device in zepp_devices:
@@ -48,5 +50,5 @@ for device in zepp_devices:
         print("Failed")
 
 
-with open("zepp_devices.json", "w") as f:
+with open(filename, "w") as f:
     json.dump(zepp_devices, f, indent=2)

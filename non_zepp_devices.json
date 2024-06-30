@@ -1,0 +1,218 @@
+[
+  {
+    "id": "bip",
+    "deviceName": "Bip",
+    "deviceSource": [
+      12
+    ],
+    "productionId": [
+      256
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "bips",
+    "deviceName": "Bip S",
+    "deviceSource": [
+      20,
+      28
+    ],
+    "productionId": [
+      256,
+      258
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "bipslite",
+    "deviceName": "Bip S lite",
+    "deviceSource": [
+      29
+    ],
+    "productionId": [
+      259
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "gtr47",
+    "deviceName": "GTR 47",
+    "deviceSource": [
+      35,
+      36,
+      47
+    ],
+    "productionId": [
+      256,
+      256,
+      null
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "gtr42",
+    "deviceName": "GTR 42",
+    "deviceSource": [
+      37,
+      38,
+      51,
+      52
+    ],
+    "productionId": [
+      256,
+      257,
+      260,
+      261
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "biplite",
+    "deviceName": "Bip lite",
+    "deviceSource": [
+      39,
+      42
+    ],
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "gtr47lite",
+    "deviceName": "GTR 47 Lite",
+    "deviceSource": [
+      46
+    ],
+    "productionId": [
+      258
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "gtr2",
+    "deviceName": "GTR 2",
+    "deviceSource": [
+      63,
+      64,
+      244
+    ],
+    "productionId": [
+      256,
+      257,
+      258
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20211117/4f2ea8de52d575fc20feea35d85b40fe1637129814062.png"
+  },
+  {
+    "id": "ares",
+    "deviceName": "Amazfit Ares",
+    "deviceSource": [
+      65
+    ],
+    "productionId": [
+      null
+    ],
+    "application": "com.huami.midong"
+  },
+  {
+    "id": "poppro",
+    "deviceName": "Amazfit Pop Pro",
+    "deviceSource": [
+      67
+    ],
+    "productionId": [
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20200820/0f386027040686687faabeb04b195cf31597892245861.png"
+  },
+  {
+    "id": "pop",
+    "deviceName": "Amazfit Pop",
+    "deviceSource": [
+      68
+    ],
+    "productionId": [
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20200820/0f386027040686687faabeb04b195cf31597892268402.png"
+  },
+  {
+    "id": "bipupro",
+    "deviceName": "Bip U Pro",
+    "deviceSource": [
+      69
+    ],
+    "productionId": [
+      257
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20200825/0f386027040686687faabeb04b195cf31598352684481.png"
+  },
+  {
+    "id": "bipu",
+    "deviceName": "Bip U",
+    "deviceSource": [
+      70
+    ],
+    "productionId": [
+      259
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20200825/0f386027040686687faabeb04b195cf31598352693846.png"
+  },
+  {
+    "id": "band5",
+    "deviceName": "Amazfit Band 5",
+    "deviceSource": [
+      73
+    ],
+    "productionId": [
+      256
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20200730/2dbb110d574a43d4b68030499ce4477a1596093402221.png"
+  },
+  {
+    "id": "gtr2e",
+    "deviceName": "GTR 2e",
+    "deviceSource": [
+      206,
+      209
+    ],
+    "productionId": [
+      256,
+      257
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20201105/ea646b3cb2c626ce512a2f828a68aea31604584959554.png"
+  },
+  {
+    "id": "bip3pro",
+    "deviceName": "Bip 3 Pro",
+    "deviceSource": [
+      256
+    ],
+    "productionId": [
+      256
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220420/e4009a442c6763bdae26bd1810282532.png"
+  },
+  {
+    "id": "bip3",
+    "deviceName": "Bip 3",
+    "deviceSource": [
+      257
+    ],
+    "productionId": [
+      257
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.huami.com/20220420/5dc11c0535c8422f6350be818f548609.png"
+  }
+]
