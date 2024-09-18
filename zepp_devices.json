@@ -40,7 +40,7 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "3.5.0",
+    "osVersion": "4.0.0",
     "productionId": [
       256,
       257
@@ -144,7 +144,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "2.1.0",
+    "osVersion": "3.5.0",
     "productionId": [
       256,
       257
@@ -194,7 +194,7 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "2.1.0",
+    "osVersion": "3.5.0",
     "productionId": [
       256,
       257
@@ -218,7 +218,7 @@
     "physicalKeysCount": 3,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "2.1.0",
+    "osVersion": "3.5.0",
     "productionId": [
       257
     ],
@@ -367,7 +367,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": "2.1.0",
+    "osVersion": "3.5.0",
     "productionId": [
       256,
       257
@@ -505,6 +505,33 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.huami.com/20220407/5027638535747bc0f5541d9868bc9a78.png"
+  },
+  {
+    "id": "trex3",
+    "deviceName": "T-Rex 3",
+    "alternativeDeviceNames": [],
+    "deviceSource": [
+      8716544,
+      8716545,
+      8716547
+    ],
+    "chipset": "nxp",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 124,
+    "physicalKeysCount": 4,
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.0.0",
+    "productionId": [
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20240816/e66474e6feba94e6a91e14f4eecd013c.png"
   },
   {
     "id": "mi_band7",

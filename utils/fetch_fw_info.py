@@ -3,6 +3,10 @@ import sys
 from rq import FETCH_FW_EXTRA_QUERY, FETCH_FW_HEADERS, get_with_retries, get_app_versions
 
 filename = sys.argv[1]
+allowed = None
+if len(sys.argv) > 2:
+    allowed = [int(x) for x in sys.argv[2].split(",")]
+    print(f"Will process only {allowed}")
 
 
 def fetch_latest_release(device, production, application):
@@ -26,11 +30,13 @@ for device in zepp_devices:
     for i in range(len(device["deviceSource"])):
         if device["productionId"][i] is not None:
             continue
+        if allowed is not None and device["deviceSource"][i] not in allowed:
+            continue
 
         source = device["deviceSource"][i]
         print(f"Trying to find productionId for {source}")
 
-        for candidate in range(255, 262):
+        for candidate in range(200, 300):
             data = fetch_latest_release(source, candidate, device["application"])
             if "firmwareUrl" in data:
                 print("Found", source, "=", candidate)
