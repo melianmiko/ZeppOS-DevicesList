@@ -49,6 +49,34 @@
     "deviceImage": "https://img-cdn.zepp.com/20230724/cd16b5ae52523d60c6ba9eefc2399cc7.png"
   },
   {
+    "id": "active_2",
+    "deviceName": "Amazfit Active 2",
+    "deviceSource": [
+      8913152,
+      8913153,
+      8913155,
+      8913159
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 466,
+    "screenHeight": 466,
+    "screenRadius": 233,
+    "iconSize": 248,
+    "physicalKeysCount": 2,
+    "watchfacePreviewWidth": 314,
+    "watchfacePreviewHeight": 314,
+    "osVersion": "4.0.0",
+    "productionId": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250121/34d5793cdd717b1202ee1ce356d553bb.png"
+  },
+  {
     "id": "balance",
     "deviceName": "Amazfit Balance",
     "alternativeDeviceNames": [],

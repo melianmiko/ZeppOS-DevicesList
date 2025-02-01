@@ -36,7 +36,8 @@ for device in zepp_devices:
         source = device["deviceSource"][i]
         print(f"Trying to find productionId for {source}")
 
-        for candidate in range(200, 300):
+        for candidate in range(240, 270):
+            print("try", candidate)
             data = fetch_latest_release(source, candidate, device["application"])
             if "firmwareUrl" in data:
                 print("Found", source, "=", candidate)

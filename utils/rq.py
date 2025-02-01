@@ -1,4 +1,5 @@
 import requests
+import time
 
 def get_with_retries(*args, **kwargs):
     retries = 0
