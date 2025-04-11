@@ -1,7 +1,2 @@
-*
-!.gitignore
-!LICENSE
-!README.md
-!schema.json
-!zepp_devices.json
-!non_zepp_devices.json
+/test_auth.json
+__pycache__

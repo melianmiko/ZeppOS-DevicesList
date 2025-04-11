@@ -1,6 +1,7 @@
 import json
 import sys
-from rq import FETCH_FW_EXTRA_QUERY, FETCH_FW_HEADERS, get_with_retries, get_app_versions
+from urllib.parse import urlencode
+from rq import FETCH_FW_HEADERS, FETCH_FW_QUERY_ARGS, get_with_retries
 
 filename = sys.argv[1]
 allowed = None
@@ -8,20 +9,21 @@ if len(sys.argv) > 2:
     allowed = [int(x) for x in sys.argv[2].split(",")]
     print(f"Will process only {allowed}")
 
-
 def fetch_latest_release(device, production, application):
-    app_version, app_version_iv = get_app_versions(application)
-    return get_with_retries(f"https://api.amazfit.com/devices/ALL/hasNewVersion"
-                            f"?productionSource={production}"
-                            f"&deviceSource={device}"
-                            f"&appVersion={app_version}"
-                            f"&cv={app_version_iv}"
-                            f"&firmwareVersion=0"
-                            f"{FETCH_FW_EXTRA_QUERY}",
-                            headers=FETCH_FW_HEADERS | {
-                                "appname": application
-                            }).json()
+    base = "https://api-mifit-cn3.zepp.com/devices/ALL/hasNewVersion"
+    query = urlencode({
+        **FETCH_FW_QUERY_ARGS,
+        'deviceSource': device,
+        'productionSource': production,
+    })
 
+    return get_with_retries(
+        f"{base}?{query}",
+        headers={
+            **FETCH_FW_HEADERS,
+            "appname": application
+        }
+    ).json()
 
 with open(filename, "r") as f:
     zepp_devices = json.load(f)
@@ -40,7 +42,7 @@ for device in zepp_devices:
             print("try", candidate)
             data = fetch_latest_release(source, candidate, device["application"])
             if "firmwareUrl" in data:
-                print("Found", source, "=", candidate)
+                print("Found", source, "=", candidate, data['firmwareUrl'])
                 device["productionId"][i] = candidate
                 break
 

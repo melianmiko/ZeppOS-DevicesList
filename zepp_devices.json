@@ -55,9 +55,13 @@
       8913152,
       8913153,
       8913155,
-      8913159
+      8913159,
+      10092800,
+      10092801,
+      10092803,
+      10092807
     ],
-    "chipset": "mhs",
+    "chipset": "nxp",
     "screenShape": "round",
     "screenWidth": 466,
     "screenHeight": 466,
@@ -66,12 +70,16 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "4.0.0",
+    "osVersion": "4.5.0",
     "productionId": [
-      null,
-      null,
-      null,
-      null
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250121/34d5793cdd717b1202ee1ce356d553bb.png"
@@ -127,6 +135,32 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/20230612/bb504247c5b58f0a9cdff26c39eb9370.png"
+  },
+  {
+    "id": "bip6",
+    "deviceName": "Bip 6",
+    "alternativeDeviceNames": [],
+    "deviceSource": [
+      9765120,
+      9765121,
+      10158337
+    ],
+    "chipset": "mhs",
+    "screenShape": "square",
+    "screenWidth": 390,
+    "screenHeight": 450,
+    "screenRadius": 86,
+    "iconSize": 240,
+    "physicalKeysCount": 1,
+    "watchfacePreviewWidth": 266,
+    "watchfacePreviewHeight": 307,
+    "osVersion": "4.0.0",
+    "productionId": [
+      null,
+      240,
+      240
+    ],
+    "application": "com.huami.midong"
   },
   {
     "id": "bip5unity",
@@ -554,9 +588,9 @@
     "watchfacePreviewHeight": 324,
     "osVersion": "4.0.0",
     "productionId": [
-      null,
-      null,
-      null
+      240,
+      240,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/equipment/20240816/e66474e6feba94e6a91e14f4eecd013c.png"
