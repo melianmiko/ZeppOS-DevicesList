@@ -2,7 +2,9 @@
   {
     "id": "active_edge",
     "deviceName": "Amazfit Active Edge",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Active Edge"
+    ],
     "deviceSource": [
       8388864,
       8388865
@@ -46,7 +48,10 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230724/cd16b5ae52523d60c6ba9eefc2399cc7.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230724/cd16b5ae52523d60c6ba9eefc2399cc7.png",
+    "alternativeDeviceNames": [
+      "Amazfit Active"
+    ]
   },
   {
     "id": "active_2",
@@ -59,7 +64,8 @@
       10092800,
       10092801,
       10092803,
-      10092807
+      10092807,
+      10617091
     ],
     "chipset": "nxp",
     "screenShape": "round",
@@ -79,15 +85,22 @@
       240,
       240,
       240,
-      240
+      240,
+      null
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/equipment/20250121/34d5793cdd717b1202ee1ce356d553bb.png"
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250121/34d5793cdd717b1202ee1ce356d553bb.png",
+    "alternativeDeviceNames": [
+      "Amazfit Active 2 NFC (Round)",
+      "Amazfit Active 2 (Round)"
+    ]
   },
   {
     "id": "balance",
     "deviceName": "Amazfit Balance",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Balance"
+    ],
     "deviceSource": [
       8519936,
       8519937,
@@ -114,7 +127,9 @@
   {
     "id": "bip5",
     "deviceName": "Bip 5",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Bip 5"
+    ],
     "deviceSource": [
       8454400,
       8454401
@@ -139,7 +154,9 @@
   {
     "id": "bip6",
     "deviceName": "Bip 6",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Bip 6"
+    ],
     "deviceSource": [
       9765120,
       9765121,
@@ -154,18 +171,22 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.0.0",
+    "osVersion": "4.5.0",
     "productionId": [
       null,
       240,
       240
     ],
-    "application": "com.huami.midong"
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250210/e376e534bf476638d6fad06e1d4cbef4.png"
   },
   {
     "id": "bip5unity",
     "deviceName": "Bip 5 Unity",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Bip 5 Unity",
+      "Amazfit Bip 5 Core"
+    ],
     "deviceSource": [
       8782081,
       8782088,
@@ -192,7 +213,9 @@
   {
     "id": "trex_ultra",
     "deviceName": "T-Rex Ultra",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex Ultra"
+    ],
     "deviceSource": [
       6553856,
       6553857
@@ -217,7 +240,9 @@
   {
     "id": "cheetah",
     "deviceName": "Cheetah",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Cheetah (Round)"
+    ],
     "deviceSource": [
       8192256,
       8192257
@@ -242,10 +267,14 @@
   {
     "id": "cheetah_pro",
     "deviceName": "Cheetah Pro",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Cheetah Pro",
+      "Cheetah Pro Kelvin Kiptum"
+    ],
     "deviceSource": [
       8126720,
-      8126721
+      8126721,
+      8126727
     ],
     "chipset": "nxp",
     "screenShape": "round",
@@ -259,7 +288,8 @@
     "osVersion": "3.5.0",
     "productionId": [
       256,
-      257
+      257,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/20230510/6ed99283128745a17fc1488f66190f88.png"
@@ -267,7 +297,9 @@
   {
     "id": "cheetah_square",
     "deviceName": "Cheetah Square",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Cheetah (Square)"
+    ],
     "deviceSource": [
       8257793
     ],
@@ -290,7 +322,9 @@
   {
     "id": "gtr_mini",
     "deviceName": "GTR mini",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTR Mini"
+    ],
     "deviceSource": [
       250,
       251
@@ -315,10 +349,14 @@
   {
     "id": "gtr4",
     "deviceName": "GTR 4",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTR 4",
+      "Amazfit GTR 4 new"
+    ],
     "deviceSource": [
       7930112,
-      7930113
+      7930113,
+      9437441
     ],
     "chipset": "nxp",
     "screenShape": "round",
@@ -332,7 +370,8 @@
     "osVersion": "3.0.0",
     "productionId": [
       256,
-      257
+      257,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.huami.com/20221013/e23053e4e5ad240ff23d167d69693b27.png"
@@ -340,7 +379,9 @@
   {
     "id": "gtr4le",
     "deviceName": "GTR 4 Limited edition",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTR 4 Limited Edition"
+    ],
     "deviceSource": [
       7864576,
       7864577
@@ -354,7 +395,7 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "2.1.0",
+    "osVersion": "3.0.0",
     "productionId": [
       null,
       257
@@ -365,7 +406,9 @@
   {
     "id": "gts4",
     "deviceName": "GTS 4",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTS 4"
+    ],
     "deviceSource": [
       7995648,
       7995649
@@ -390,10 +433,14 @@
   {
     "id": "gts4mini",
     "deviceName": "GTS 4 mini",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTS 4 Mini",
+      "Amazfit GTS 4 mini new"
+    ],
     "deviceSource": [
       246,
-      247
+      247,
+      9502977
     ],
     "chipset": "dialog",
     "screenShape": "square",
@@ -407,7 +454,8 @@
     "osVersion": "1.0.0",
     "productionId": [
       256,
-      259
+      259,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.huami.com/20220513/a84b4dbfbc16f13bb0276b076016d539.png"
@@ -415,7 +463,9 @@
   {
     "id": "falcon",
     "deviceName": "Falcon",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Falcon"
+    ],
     "deviceSource": [
       414,
       415
@@ -440,7 +490,9 @@
   {
     "id": "band7",
     "deviceName": "Amazfit Band 7",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit Band 7"
+    ],
     "deviceSource": [
       252,
       253,
@@ -468,12 +520,15 @@
     "id": "gtr3pro",
     "deviceName": "GTR 3 Pro",
     "alternativeDeviceNames": [
-      "Amazfit GTR 3 Pro LTD"
+      "Amazfit GTR 3 Pro LTD",
+      "Amazfit GTR 3 Pro",
+      "Amazfit GTR 3 Pro Limited Edition"
     ],
     "deviceSource": [
       229,
       230,
-      6095106
+      6095106,
+      242
     ],
     "chipset": "nxp",
     "screenShape": "round",
@@ -488,7 +543,8 @@
     "productionId": [
       256,
       257,
-      258
+      258,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.huami.com/20220418/b621d452e7aff61cbf9814a5fec872dc.png"
@@ -496,7 +552,9 @@
   {
     "id": "gtr3",
     "deviceName": "GTR 3",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTR 3"
+    ],
     "deviceSource": [
       226,
       227
@@ -521,7 +579,9 @@
   {
     "id": "gts3",
     "deviceName": "GTS 3",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit GTS 3"
+    ],
     "deviceSource": [
       224,
       225
@@ -546,7 +606,9 @@
   {
     "id": "trex2",
     "deviceName": "T-Rex 2",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex 2"
+    ],
     "deviceSource": [
       418,
       419
@@ -571,7 +633,9 @@
   {
     "id": "trex3",
     "deviceName": "T-Rex 3",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex 3"
+    ],
     "deviceSource": [
       8716544,
       8716545,
@@ -629,5 +693,34 @@
     ],
     "application": "com.xiaomi.hm.health",
     "deviceImage": "https://img-cdn.huami.com/20221011/51b8df8838155dca92f962de9b690340.png"
+  },
+  {
+    "id": "balance2",
+    "deviceName": "Amazfit Balance 2",
+    "alternativeDeviceNames": [
+      "Amazfit Balance 2"
+    ],
+    "deviceSource": [
+      9568512,
+      9568513,
+      9568515
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "2",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "5.0.0",
+    "productionId": [
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250512/9c839b5e3103566b4d0a3562d16955cf.png"
   }
 ]
