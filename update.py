@@ -230,6 +230,8 @@ for row in payload:
             pprint(f'     "{dev["deviceName"]}": New alt name "{row['productName']}"')
             dev['alternativeDeviceNames'].append(row['productName'])
         dev_by_prod_name[row["productName"]] = dev
+        for alt in dev['alternativeDeviceNames']:
+            dev_by_prod_name[alt] = dev
     else:
         new_devs.append(row)
 
@@ -284,6 +286,8 @@ for row in new_devs:
             "deviceImage": None,
         }
         dev_by_prod_name[row['productName']] = target
+        for alt in dev['alternativeDeviceNames']:
+            dev_by_prod_name[alt] = dev
         zepp_devices.append(target)
 
 
@@ -346,7 +350,7 @@ for device in zepp_devices:
 
         if device["productionId"][i] is None:
             print("FAILURE")
-                print("     Not found")
+            print("     Not found")
 
 
 # -------------------------------------------------

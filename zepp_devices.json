@@ -722,5 +722,41 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250512/9c839b5e3103566b4d0a3562d16955cf.png"
+  },
+  {
+    "id": "active_2_square",
+    "deviceName": "Amazfit Active 2 (Square)",
+    "alternativeDeviceNames": [
+      "Rome",
+      "Amazfit Active 2 NFC (Square)"
+    ],
+    "deviceSource": [
+      9830656,
+      9830657,
+      9830659,
+      10223872,
+      10223873,
+      10223875
+    ],
+    "chipset": "mhs",
+    "screenShape": "square",
+    "screenWidth": 390,
+    "screenHeight": 450,
+    "screenRadius": "86",
+    "iconSize": 248,
+    "physicalKeysCount": "2",
+    "watchfacePreviewWidth": 266,
+    "watchfacePreviewHeight": 307,
+    "osVersion": "1.0.0",
+    "productionId": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250428/0ed7c2580e57922d8b273418813e9990.png"
   }
 ]
