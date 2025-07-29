@@ -716,9 +716,9 @@
     "watchfacePreviewHeight": 324,
     "osVersion": "5.0.0",
     "productionId": [
-      null,
-      null,
-      null
+      240,
+      240,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250512/9c839b5e3103566b4d0a3562d16955cf.png"
@@ -747,14 +747,14 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "1.0.0",
+    "osVersion": "4.5.0",
     "productionId": [
       null,
       null,
       null,
-      null,
-      null,
-      null
+      240,
+      240,
+      240
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250428/0ed7c2580e57922d8b273418813e9990.png"
