@@ -760,19 +760,15 @@
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250428/0ed7c2580e57922d8b273418813e9990.png"
   },
   {
-    "id": "trex3pro",
-    "deviceName": "Amazfit T-Rex 3 Pro",
+    "id": "trex3pro48",
+    "deviceName": "Amazfit T-Rex 3 Pro (48mm)",
     "alternativeDeviceNames": [
-      "Amazfit T-Rex 3 Pro (48mm)",
-      "Amazfit T-Rex 3 Pro (44mm)"
+      "Amazfit T-Rex 3 Pro (48mm)"
     ],
     "deviceSource": [
       10551552,
       10551553,
-      10551555,
-      10682624,
-      10682625,
-      10682627
+      10551555
     ],
     "chipset": "mhs",
     "screenShape": "round",
@@ -787,7 +783,33 @@
     "productionId": [
       240,
       240,
-      240,
+      240
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/dial/20250807/eb9aabb3d44b73c1eda28f69923bb149.png"
+  },
+  {
+    "id": "trex3pro44",
+    "deviceName": "Amazfit T-Rex 3 Pro (44mm)",
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex 3 Pro (44mm)"
+    ],
+    "deviceSource": [
+      10682624,
+      10682625,
+      10682627
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 466,
+    "screenHeight": 466,
+    "screenRadius": 233,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.5.0",
+    "productionId": [
       null,
       null,
       null
