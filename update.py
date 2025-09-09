@@ -13,7 +13,7 @@ ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/devices.json"
 
 PRODUCTION_ID_RANGE = [240, 270]
 
-ZEPP_VERSION = "9.9.6-play_151642"
+ZEPP_VERSION = "9.11.1-play_151669"
 ZEPP_USER_AGENT = f"Zepp/{ZEPP_VERSION.split('_')[0]} (2203129G; Android 14; Density/2.75)"
 ZEPP_VERSION_IV = "_".join(list(ZEPP_VERSION.split("_")[::-1]))
 
@@ -286,8 +286,6 @@ for row in new_devs:
             "deviceImage": None,
         }
         dev_by_prod_name[row['productName']] = target
-        for alt in dev['alternativeDeviceNames']:
-            dev_by_prod_name[alt] = dev
         zepp_devices.append(target)
 
 
@@ -327,6 +325,9 @@ with open('zepp_devices.json', "w") as f:
 #               Fetch producctionIDs
 # -------------------------------------------------
 
+with open("failed_prod_ids.json", "r") as f:
+    skip_ids = json.load(f)
+
 pprint('[==] Obtaining missing productionIDs...')
 pprint("     This will take a while, and will make a lot of requests to Amazfit's server")
 pprint("     If it fails, try it through VPN")
@@ -337,6 +338,9 @@ for device in zepp_devices:
             continue
 
         source = device["deviceSource"][i]
+        if source in skip_ids:
+            pprint(f'[--] Skipping {source} / "{device['deviceName']}" since marked as failed')
+            continue
         pprint(f'[--] Trying to find productionId for {source} / "{device['deviceName']}"... ', end='')
 
         for candidate in range(*PRODUCTION_ID_RANGE):
