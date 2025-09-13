@@ -214,5 +214,55 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.huami.com/20220420/5dc11c0535c8422f6350be818f548609.png"
+  },
+  {
+    "id": "mi_band4",
+    "deviceName": "Mi Band 4",
+    "deviceSource": [
+      24,
+      25,
+      59,
+      86
+    ],
+    "productionId": [
+      24,
+      25,
+      59,
+      86
+    ],
+    "application": "com.xiaomi.hm.health",
+    "screenWidth": 120,
+    "screenHeight": 240,
+    "deviceImage": ""
+  },
+  {
+    "id": "mi_band5",
+    "deviceName": "Mi Band 5",
+    "deviceSource": [
+      58
+    ],
+    "productionId": [
+      58
+    ],
+    "screenWidth": 126,
+    "screenHeight": 294,
+    "application": "com.xiaomi.hm.health",
+    "deviceImage": ""
+  },
+  {
+    "id": "mi_band6",
+    "deviceName": "Mi Band 6",
+    "deviceSource": [
+      211,
+      212
+    ],
+    "productionId": [
+      211,
+      212
+    ],
+    "screenWidth": 152,
+    "screenHeight": 486,
+    "application": "com.xiaomi.hm.health",
+    "deviceImage": ""
   }
 ]
