@@ -74,8 +74,8 @@
       42
     ],
     "productionId": [
-      256,
-      257
+      null,
+      null
     ],
     "application": "com.huami.midong"
   },
@@ -225,10 +225,10 @@
       86
     ],
     "productionId": [
-      24,
-      25,
-      59,
-      86
+      null,
+      null,
+      null,
+      null
     ],
     "application": "com.xiaomi.hm.health",
     "screenWidth": 120,
@@ -242,7 +242,7 @@
       58
     ],
     "productionId": [
-      58
+      null
     ],
     "screenWidth": 126,
     "screenHeight": 294,
@@ -257,8 +257,8 @@
       212
     ],
     "productionId": [
-      211,
-      212
+      null,
+      null
     ],
     "screenWidth": 152,
     "screenHeight": 486,
