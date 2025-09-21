@@ -1,7 +1,7 @@
 [
   {
     "id": "active_edge",
-    "deviceName": "Amazfit Active Edge",
+    "deviceName": "Active Edge",
     "alternativeDeviceNames": [
       "Amazfit Active Edge"
     ],
@@ -28,7 +28,7 @@
   },
   {
     "id": "active",
-    "deviceName": "Amazfit Active",
+    "deviceName": "Active",
     "deviceSource": [
       8323328,
       8323329
@@ -55,7 +55,7 @@
   },
   {
     "id": "active_2",
-    "deviceName": "Amazfit Active 2",
+    "deviceName": "Active 2",
     "deviceSource": [
       8913152,
       8913153,
@@ -92,12 +92,13 @@
     "deviceImage": "https://img-cdn.zepp.com/equipment/20250121/34d5793cdd717b1202ee1ce356d553bb.png",
     "alternativeDeviceNames": [
       "Amazfit Active 2 NFC (Round)",
-      "Amazfit Active 2 (Round)"
+      "Amazfit Active 2 (Round)",
+      "Amazfit Active 2"
     ]
   },
   {
     "id": "balance",
-    "deviceName": "Amazfit Balance",
+    "deviceName": "Balance",
     "alternativeDeviceNames": [
       "Amazfit Balance"
     ],
@@ -489,7 +490,7 @@
   },
   {
     "id": "band7",
-    "deviceName": "Amazfit Band 7",
+    "deviceName": "Band 7",
     "alternativeDeviceNames": [
       "Amazfit Band 7"
     ],
@@ -696,7 +697,7 @@
   },
   {
     "id": "balance2",
-    "deviceName": "Amazfit Balance 2",
+    "deviceName": "Balance 2",
     "alternativeDeviceNames": [
       "Amazfit Balance 2"
     ],
@@ -725,10 +726,11 @@
   },
   {
     "id": "active_2_square",
-    "deviceName": "Amazfit Active 2 (Square)",
+    "deviceName": "Active 2 (Square)",
     "alternativeDeviceNames": [
       "Rome",
-      "Amazfit Active 2 NFC (Square)"
+      "Amazfit Active 2 NFC (Square)",
+      "Amazfit Active 2 (Square)"
     ],
     "deviceSource": [
       9830656,
@@ -761,7 +763,7 @@
   },
   {
     "id": "trex3pro48",
-    "deviceName": "Amazfit T-Rex 3 Pro (48mm)",
+    "deviceName": "T-Rex 3 Pro (48mm)",
     "alternativeDeviceNames": [
       "Amazfit T-Rex 3 Pro (48mm)"
     ],
@@ -790,7 +792,7 @@
   },
   {
     "id": "trex3pro44",
-    "deviceName": "Amazfit T-Rex 3 Pro (44mm)",
+    "deviceName": "T-Rex 3 Pro (44mm)",
     "alternativeDeviceNames": [
       "Amazfit T-Rex 3 Pro (44mm)"
     ],
