@@ -18,13 +18,14 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 243,
     "watchfacePreviewHeight": 243,
-    "osVersion": "2.1.0",
+    "osVersion": "3.6.0",
     "productionId": [
       256,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230915/171394063cc05d02064141539f7cb4d7.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230915/171394063cc05d02064141539f7cb4d7.png",
+    "apiVersion": "3.6.0"
   },
   {
     "id": "active",
@@ -42,7 +43,7 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.0.0",
+    "osVersion": "3.6.0",
     "productionId": [
       256,
       257
@@ -51,7 +52,8 @@
     "deviceImage": "https://img-cdn.zepp.com/20230724/cd16b5ae52523d60c6ba9eefc2399cc7.png",
     "alternativeDeviceNames": [
       "Amazfit Active"
-    ]
+    ],
+    "apiVersion": "3.6.0"
   },
   {
     "id": "active_2",
@@ -76,7 +78,7 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "4.5.0",
+    "osVersion": "4.0.0",
     "productionId": [
       240,
       240,
@@ -94,7 +96,8 @@
       "Amazfit Active 2 NFC (Round)",
       "Amazfit Active 2 (Round)",
       "Amazfit Active 2"
-    ]
+    ],
+    "apiVersion": "4.1.0"
   },
   {
     "id": "balance",
@@ -116,14 +119,15 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       256,
       257,
       259
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230725/5b09b731289b8e1c128ef508eadfafd3.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230725/5b09b731289b8e1c128ef508eadfafd3.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "bip5",
@@ -150,7 +154,8 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230612/bb504247c5b58f0a9cdff26c39eb9370.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230612/bb504247c5b58f0a9cdff26c39eb9370.png",
+    "apiVersion": "2.1.0"
   },
   {
     "id": "bip6",
@@ -172,14 +177,15 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.5.0",
+    "osVersion": "4.0.0",
     "productionId": [
       null,
       240,
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/equipment/20250210/e376e534bf476638d6fad06e1d4cbef4.png"
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250210/e376e534bf476638d6fad06e1d4cbef4.png",
+    "apiVersion": "4.0.0"
   },
   {
     "id": "bip5unity",
@@ -209,7 +215,8 @@
       265
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/dial/20240304/56b66e3b8f8fa0a70aa9acb328f87f57.png"
+    "deviceImage": "https://img-cdn.zepp.com/dial/20240304/56b66e3b8f8fa0a70aa9acb328f87f57.png",
+    "apiVersion": "3.0.0"
   },
   {
     "id": "trex_ultra",
@@ -230,13 +237,14 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       256,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20221121/8ca5b3db6c3e74b8950cfb599919b623.png"
+    "deviceImage": "https://img-cdn.huami.com/20221121/8ca5b3db6c3e74b8950cfb599919b623.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "cheetah",
@@ -257,13 +265,14 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 306,
     "watchfacePreviewHeight": 306,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       null,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230423/60dae1269ead3d133593528e06fe629d.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230423/60dae1269ead3d133593528e06fe629d.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "cheetah_pro",
@@ -286,14 +295,15 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       256,
       257,
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230510/6ed99283128745a17fc1488f66190f88.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230510/6ed99283128745a17fc1488f66190f88.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "cheetah_square",
@@ -313,12 +323,13 @@
     "physicalKeysCount": 3,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230529/ad495f89d55975183c96a138b2c5236a.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230529/ad495f89d55975183c96a138b2c5236a.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "gtr_mini",
@@ -345,7 +356,8 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230310/df4dde8c6d0b884020b610809191621d.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230310/df4dde8c6d0b884020b610809191621d.png",
+    "apiVersion": "2.0.0"
   },
   {
     "id": "gtr4",
@@ -368,14 +380,15 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "3.0.0",
+    "osVersion": "1.0.0",
     "productionId": [
       256,
       257,
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20221013/e23053e4e5ad240ff23d167d69693b27.png"
+    "deviceImage": "https://img-cdn.huami.com/20221013/e23053e4e5ad240ff23d167d69693b27.png",
+    "apiVersion": "3.5.0"
   },
   {
     "id": "gtr4le",
@@ -396,13 +409,14 @@
     "physicalKeysCount": 2,
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "3.0.0",
+    "osVersion": "3.5.0",
     "productionId": [
       null,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/20230202/d2cb455958160f39fe56e7b241053c21.png"
+    "deviceImage": "https://img-cdn.zepp.com/20230202/d2cb455958160f39fe56e7b241053c21.png",
+    "apiVersion": "3.5.0"
   },
   {
     "id": "gts4",
@@ -423,13 +437,14 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "2.1.0",
+    "osVersion": "3.5.0",
     "productionId": [
       256,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20220802/f93422995a5b2b84baece4fa196e2cdf.png"
+    "deviceImage": "https://img-cdn.huami.com/20220802/f93422995a5b2b84baece4fa196e2cdf.png",
+    "apiVersion": "3.5.0"
   },
   {
     "id": "gts4mini",
@@ -459,7 +474,8 @@
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20220513/a84b4dbfbc16f13bb0276b076016d539.png"
+    "deviceImage": "https://img-cdn.huami.com/20220513/a84b4dbfbc16f13bb0276b076016d539.png",
+    "apiVersion": "1.0.0"
   },
   {
     "id": "falcon",
@@ -480,13 +496,14 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 280,
     "watchfacePreviewHeight": 280,
-    "osVersion": "3.5.0",
+    "osVersion": "3.7.0",
     "productionId": [
       256,
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20211227/b513c7e72946fe696df07efe0d7d971c1640590095840.png"
+    "deviceImage": "https://img-cdn.huami.com/20211227/b513c7e72946fe696df07efe0d7d971c1640590095840.png",
+    "apiVersion": "3.7.0"
   },
   {
     "id": "band7",
@@ -515,7 +532,8 @@
       259
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20220513/113e439a345ec56823495f8346699667.png"
+    "deviceImage": "https://img-cdn.huami.com/20220513/113e439a345ec56823495f8346699667.png",
+    "apiVersion": "1.0.0"
   },
   {
     "id": "gtr3pro",
@@ -548,7 +566,8 @@
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20220418/b621d452e7aff61cbf9814a5fec872dc.png"
+    "deviceImage": "https://img-cdn.huami.com/20220418/b621d452e7aff61cbf9814a5fec872dc.png",
+    "apiVersion": "1.0.0"
   },
   {
     "id": "gtr3",
@@ -575,7 +594,8 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20210830/21d6fb0c1b30a1bf5e934263011469761630305167018.png"
+    "deviceImage": "https://img-cdn.huami.com/20210830/21d6fb0c1b30a1bf5e934263011469761630305167018.png",
+    "apiVersion": "1.0.0"
   },
   {
     "id": "gts3",
@@ -602,7 +622,8 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20210830/2b4863a69912a02a36dfe276e16ac0341630305225993.png"
+    "deviceImage": "https://img-cdn.huami.com/20210830/2b4863a69912a02a36dfe276e16ac0341630305225993.png",
+    "apiVersion": "1.0.0"
   },
   {
     "id": "trex2",
@@ -629,7 +650,8 @@
       257
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.huami.com/20220407/5027638535747bc0f5541d9868bc9a78.png"
+    "deviceImage": "https://img-cdn.huami.com/20220407/5027638535747bc0f5541d9868bc9a78.png",
+    "apiVersion": "2.1.0"
   },
   {
     "id": "trex3",
@@ -658,7 +680,8 @@
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/equipment/20240816/e66474e6feba94e6a91e14f4eecd013c.png"
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20240816/e66474e6feba94e6a91e14f4eecd013c.png",
+    "apiVersion": "4.0.0"
   },
   {
     "id": "mi_band7",
@@ -715,14 +738,15 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "5.0.0",
+    "osVersion": "4.0.0",
     "productionId": [
       240,
       240,
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/equipment/20250512/9c839b5e3103566b4d0a3562d16955cf.png"
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250512/9c839b5e3103566b4d0a3562d16955cf.png",
+    "apiVersion": "4.0.0"
   },
   {
     "id": "active_2_square",
@@ -749,7 +773,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.5.0",
+    "osVersion": "4.0.0",
     "productionId": [
       null,
       null,
@@ -759,7 +783,8 @@
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/equipment/20250428/0ed7c2580e57922d8b273418813e9990.png"
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250428/0ed7c2580e57922d8b273418813e9990.png",
+    "apiVersion": "4.0.0"
   },
   {
     "id": "trex3pro48",
@@ -781,14 +806,15 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.5.0",
+    "osVersion": "4.1.0",
     "productionId": [
       240,
       240,
       240
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/dial/20250807/eb9aabb3d44b73c1eda28f69923bb149.png"
+    "deviceImage": "https://img-cdn.zepp.com/dial/20250807/eb9aabb3d44b73c1eda28f69923bb149.png",
+    "apiVersion": "4.1.0"
   },
   {
     "id": "trex3pro44",
@@ -810,13 +836,14 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.5.0",
+    "osVersion": "4.1.0",
     "productionId": [
       null,
       null,
       null
     ],
     "application": "com.huami.midong",
-    "deviceImage": "https://img-cdn.zepp.com/dial/20250904/4bb6e22e0e613959ede19b0c42350ef4.png"
+    "deviceImage": "https://img-cdn.zepp.com/dial/20250904/4bb6e22e0e613959ede19b0c42350ef4.png",
+    "apiVersion": "4.1.0"
   }
 ]

@@ -219,9 +219,9 @@ for row in payload:
     dev = get_by_source(row['deviceSource'])
     if dev:
         # Update data
-        os_ver = f'{row["value"]["os"]["version"]}.0'
+        os_ver = f'{row["value"]["os"]["apiLevel"]}.0'
         cur_ver = dev["osVersion"]
-        if ver2int(os_ver) > ver2int(cur_ver):
+        if ver2int(os_ver) != ver2int(cur_ver):
             pprint(f'    "{dev["deviceName"]}": ZeppOS changed {cur_ver} -> {os_ver}')
             dev["osVersion"] = os_ver
         if "alternativeDeviceNames" not in dev:
@@ -280,7 +280,7 @@ for row in new_devs:
             "physicalKeysCount": btn_count,
             "watchfacePreviewWidth": pw,
             "watchfacePreviewHeight": ph,
-            "osVersion": row['value']['os']['version'] + '.0',
+            "osVersion": row['value']['os']['apiLevel'] + '.0',
             "productionId": [None],
             "application": "com.huami.midong",
             "deviceImage": None,
