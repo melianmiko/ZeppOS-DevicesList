@@ -749,6 +749,32 @@
     "apiVersion": "4.0.0"
   },
   {
+    "id": "balance2_xt",
+    "deviceName": "Balance 2 XT",
+    "alternativeDeviceNames": [
+      "Amazfit Balance 2 XT"
+    ],
+    "deviceSource": [
+      10486019
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "2",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.0.0",
+    "productionId": [
+      240
+    ],
+    "application": "com.huami.midong",
+    "apiVersion": "4.0.0",
+    "deviceImage": "https://img-cdn.zepp.com/equipment/20250527/f9f465edc33f647a12ab1099b277dfea.png"
+  },
+  {
     "id": "active_2_square",
     "deviceName": "Active 2 (Square)",
     "alternativeDeviceNames": [
