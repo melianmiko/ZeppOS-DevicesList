@@ -755,7 +755,8 @@
       "Amazfit Balance 2 XT"
     ],
     "deviceSource": [
-      10486019
+      10486019,
+      10486016
     ],
     "chipset": "mhs",
     "screenShape": "round",
@@ -768,6 +769,7 @@
     "watchfacePreviewHeight": 324,
     "osVersion": "4.0.0",
     "productionId": [
+      240,
       240
     ],
     "application": "com.huami.midong",
