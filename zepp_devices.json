@@ -177,7 +177,7 @@
     "physicalKeysCount": 1,
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.0.0",
+    "osVersion": "4.2.0",
     "productionId": [
       null,
       240,
@@ -738,7 +738,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.0.0",
+    "osVersion": "4.2.0",
     "productionId": [
       240,
       240,
@@ -756,7 +756,8 @@
     ],
     "deviceSource": [
       10486019,
-      10486016
+      10486016,
+      10486017
     ],
     "chipset": "mhs",
     "screenShape": "round",
@@ -769,6 +770,7 @@
     "watchfacePreviewHeight": 324,
     "osVersion": "4.0.0",
     "productionId": [
+      240,
       240,
       240
     ],
@@ -801,7 +803,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 266,
     "watchfacePreviewHeight": 307,
-    "osVersion": "4.0.0",
+    "osVersion": "4.2.0",
     "productionId": [
       null,
       null,
@@ -834,7 +836,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.1.0",
+    "osVersion": "4.2.0",
     "productionId": [
       240,
       240,
@@ -864,7 +866,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.1.0",
+    "osVersion": "4.2.0",
     "productionId": [
       240,
       240,
