@@ -13,7 +13,7 @@ ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/devices.json"
 
 PRODUCTION_ID_RANGE = [240, 270]
 
-ZEPP_VERSION = "9.13.6-play_151709"
+ZEPP_VERSION = "9.15.1-play_151758"
 ZEPP_USER_AGENT = f"Zepp/{ZEPP_VERSION.split('_')[0]} (2203129G; Android 14; Density/2.75)"
 ZEPP_VERSION_IV = "_".join(list(ZEPP_VERSION.split("_")[::-1]))
 
@@ -56,6 +56,19 @@ FETCH_FW_QUERY_ARGS = {
     'v': '2.0',
     'vendorSource': '1'
 }
+
+
+def is_never(v1: str, v2: str):
+    v1p, v2p = [
+        [int(c) for c in v.split(".")]
+        for v in (v1, v2)
+    ]
+    for i in range(len(v1p)):
+        c1, c2 = [(0 if i >= len(p) else p[i]) for p in (v1p, v2p)]
+        if c1 > c2:
+            return True
+    return False
+
 
 def ver2int(v: str):
     return int(v.replace(".", ""))
@@ -221,7 +234,7 @@ for row in payload:
         # Update data
         os_ver = f'{row["value"]["os"]["apiLevel"]}.0'
         cur_ver = dev["osVersion"]
-        if ver2int(os_ver) != ver2int(cur_ver):
+        if is_never(os_ver, cur_ver):
             pprint(f'    "{dev["deviceName"]}": ZeppOS changed {cur_ver} -> {os_ver}')
             dev["osVersion"] = os_ver
         if "alternativeDeviceNames" not in dev:
