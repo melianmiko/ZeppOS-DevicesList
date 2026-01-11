@@ -875,5 +875,32 @@
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/dial/20250904/4bb6e22e0e613959ede19b0c42350ef4.png",
     "apiVersion": "4.1.0"
+  },
+  {
+    "id": "active_max",
+    "deviceName": "Amazfit Active Max",
+    "alternativeDeviceNames": [
+      "Amazfit Active Max"
+    ],
+    "deviceSource": [
+      10813697,
+      10813699
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "2",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.2.0",
+    "productionId": [
+      240,
+      240
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://img-cdn.zepp.com/watchface-maker/20251014/1143e8575a26b17a70404e423810336d.png"
   }
 ]

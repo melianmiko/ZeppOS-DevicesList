@@ -13,7 +13,7 @@ ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/devices.json"
 
 PRODUCTION_ID_RANGE = [240, 270]
 
-ZEPP_VERSION = "9.15.1-play_151758"
+ZEPP_VERSION = "9.15.2-play_151760"
 ZEPP_USER_AGENT = f"Zepp/{ZEPP_VERSION.split('_')[0]} (2203129G; Android 14; Density/2.75)"
 ZEPP_VERSION_IV = "_".join(list(ZEPP_VERSION.split("_")[::-1]))
 
@@ -63,7 +63,7 @@ def is_never(v1: str, v2: str):
         [int(c) for c in v.split(".")]
         for v in (v1, v2)
     ]
-    for i in range(len(v1p)):
+    for i in range(max(len(v1p), len(v2p))):
         c1, c2 = [(0 if i >= len(p) else p[i]) for p in (v1p, v2p)]
         if c1 > c2:
             return True
