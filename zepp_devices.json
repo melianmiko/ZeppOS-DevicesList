@@ -247,6 +247,32 @@
     "apiVersion": "3.7.0"
   },
   {
+    "id": "trex_ultra_2",
+    "deviceName": "T-Rex Ultra 2",
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex Ultra 2"
+    ],
+    "deviceSource": [
+      10879233
+    ],
+    "chipset": "nxp",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": 4,
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.2.0",
+    "productionId": [
+      240
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20251224/41ce0b3eee3ec40c7dfb1b0f38de554f.png",
+    "apiVersion": "4.2.0"
+  },
+  {
     "id": "cheetah",
     "deviceName": "Cheetah",
     "alternativeDeviceNames": [
