@@ -253,7 +253,9 @@
       "Amazfit T-Rex Ultra 2"
     ],
     "deviceSource": [
-      10879233
+      10879233,
+      10879232,
+      10879235
     ],
     "chipset": "nxp",
     "screenShape": "round",
@@ -264,9 +266,11 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "4.3.0",
     "productionId": [
-      240
+      240,
+      240,
+      null
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://store-cdn.zepp.com/light-app-store/20251224/41ce0b3eee3ec40c7dfb1b0f38de554f.png",
@@ -712,7 +716,15 @@
   {
     "id": "mi_band7",
     "deviceName": "Mi Band 7",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "\u5c0f\u7c73\u624b\u73af7 NFC",
+      "\u5c0f\u7c73\u624b\u73af7 NFC \u56fd\u9645\u7248",
+      "\u5c0f\u7c73\u624b\u73af7",
+      "\u5c0f\u7c73\u624b\u73af7 \u56fd\u9645\u7248",
+      "\u5c0f\u7c73\u624b\u73af7 \u4e9a\u592a\u7248",
+      "\u5c0f\u7c73\u624b\u73af7 \u897f\u6b27\u7248",
+      "\u5c0f\u7c73\u624b\u73af7 \u5370\u5ea6\u7248"
+    ],
     "deviceSource": [
       260,
       261,
@@ -720,7 +732,8 @@
       263,
       264,
       265,
-      266
+      266,
+      6750471
     ],
     "chipset": "dialog",
     "screenShape": "band",
@@ -739,6 +752,7 @@
       259,
       260,
       261,
+      null,
       null
     ],
     "application": "com.xiaomi.hm.health",
@@ -928,5 +942,36 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://img-cdn.zepp.com/watchface-maker/20251014/1143e8575a26b17a70404e423810336d.png"
+  },
+  {
+    "id": "active_3",
+    "deviceName": "Amazfit Active 3 Premium",
+    "alternativeDeviceNames": [
+      "Amazfit Active 3 Premium"
+    ],
+    "deviceSource": [
+      10944768,
+      10944769,
+      10944771,
+      10948867
+    ],
+    "chipset": "mhs",
+    "screenShape": "round",
+    "screenWidth": 466,
+    "screenHeight": 466,
+    "screenRadius": 233,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 314,
+    "watchfacePreviewHeight": 314,
+    "osVersion": "4.3.0",
+    "productionId": [
+      240,
+      240,
+      240,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260119/b9b97f9403bc83d3e2172732273aa57b.png"
   }
 ]
