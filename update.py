@@ -9,11 +9,11 @@ from urllib.parse import urlencode
 from rich import print as pprint
 
 TOKEN_PATH = Path('./auth_data.json')
-ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/devices.json"
+ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/v1/devices.json"
 
 PRODUCTION_ID_RANGE = [240, 270]
 
-ZEPP_VERSION = "10.0.7-play_151797"
+ZEPP_VERSION = "10.2.5-play_151830"
 ZEPP_USER_AGENT = f"Zepp/{ZEPP_VERSION.split('_')[0]} (2203129G; Android 14; Density/2.75)"
 ZEPP_VERSION_IV = "_".join(list(ZEPP_VERSION.split("_")[::-1]))
 
@@ -234,9 +234,13 @@ for row in payload:
         # Update data
         os_ver = f'{row["value"]["os"]["apiLevel"]}.0'
         cur_ver = dev["osVersion"]
+        new_chipset = row['value']['chip']['manufacturer'].lower()
         if is_never(os_ver, cur_ver):
             pprint(f'    "{dev["deviceName"]}": ZeppOS changed {cur_ver} -> {os_ver}')
             dev["osVersion"] = os_ver
+        if dev["chipset"] != new_chipset:
+            pprint(f'    "{dev["deviceName"]}": Changed chipset model to {new_chipset}')
+            dev["chipset"] = new_chipset
         if "alternativeDeviceNames" not in dev:
             dev["alternativeDeviceNames"] = []
         if row['productName'] != dev['deviceName'] and row['productName'] not in dev['alternativeDeviceNames']:

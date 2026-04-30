@@ -69,7 +69,7 @@
       10092807,
       10617091
     ],
-    "chipset": "nxp",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 466,
     "screenHeight": 466,
@@ -168,7 +168,7 @@
       9765121,
       10158337
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "square",
     "screenWidth": 390,
     "screenHeight": 450,
@@ -257,7 +257,7 @@
       10879232,
       10879235
     ],
-    "chipset": "nxp",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -371,7 +371,7 @@
       250,
       251
     ],
-    "chipset": "mhs",
+    "chipset": "zps002",
     "screenShape": "round",
     "screenWidth": 416,
     "screenHeight": 416,
@@ -488,7 +488,7 @@
       247,
       9502977
     ],
-    "chipset": "dialog",
+    "chipset": "nxp",
     "screenShape": "square",
     "screenWidth": 336,
     "screenHeight": 384,
@@ -694,7 +694,7 @@
       8716545,
       8716547
     ],
-    "chipset": "nxp",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -703,7 +703,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.0.0",
+    "osVersion": "4.3.0",
     "productionId": [
       240,
       240,
@@ -769,7 +769,7 @@
       9568513,
       9568515
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -799,7 +799,7 @@
       10486016,
       10486017
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -808,7 +808,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.0.0",
+    "osVersion": "4.2.0",
     "productionId": [
       240,
       240,
@@ -834,7 +834,7 @@
       10223873,
       10223875
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "square",
     "screenWidth": 390,
     "screenHeight": 450,
@@ -867,7 +867,7 @@
       10551553,
       10551555
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -876,7 +876,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "4.3.0",
     "productionId": [
       240,
       240,
@@ -897,7 +897,7 @@
       10682625,
       10682627
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 466,
     "screenHeight": 466,
@@ -906,7 +906,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "4.3.0",
     "productionId": [
       240,
       240,
@@ -926,7 +926,7 @@
       10813697,
       10813699
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 480,
     "screenHeight": 480,
@@ -955,7 +955,7 @@
       10944771,
       10948867
     ],
-    "chipset": "mhs",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 466,
     "screenHeight": 466,
@@ -973,5 +973,34 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260119/b9b97f9403bc83d3e2172732273aa57b.png"
+  },
+  {
+    "id": "cheetah2_pro",
+    "deviceName": "Amazfit Cheetah 2 Pro",
+    "alternativeDeviceNames": [
+      "Amazfit Cheetah 2 Pro"
+    ],
+    "deviceSource": [
+      11010304,
+      11010305,
+      11010307
+    ],
+    "chipset": "zps",
+    "screenShape": "round",
+    "screenWidth": 466,
+    "screenHeight": 466,
+    "screenRadius": 233,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 314,
+    "watchfacePreviewHeight": 314,
+    "osVersion": "4.3.0",
+    "productionId": [
+      240,
+      240,
+      240
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260331/0035a1b273e4717ce91c1f00850f44a0.png"
   }
 ]
