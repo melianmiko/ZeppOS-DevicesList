@@ -1002,5 +1002,55 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260331/0035a1b273e4717ce91c1f00850f44a0.png"
+  },
+  {
+    "id": "cheetah2ultra",
+    "deviceName": "Amazfit Cheetah 2 Ultra",
+    "alternativeDeviceNames": [
+      "Amazfit Cheetah 2 Ultra"
+    ],
+    "deviceSource": [
+      9978112,
+      9978113
+    ],
+    "chipset": "zps",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.4.0",
+    "productionId": [
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260514/f7ebb46edd27cd24cefb357244246c43.png"
+  },
+  {
+    "id": "bipmax",
+    "deviceName": "Amazfit Bip Max",
+    "alternativeDeviceNames": [],
+    "deviceSource": [
+      11206915
+    ],
+    "chipset": "zps",
+    "screenShape": "square",
+    "screenWidth": 432,
+    "screenHeight": 514,
+    "screenRadius": "106",
+    "iconSize": 248,
+    "physicalKeysCount": "2",
+    "watchfacePreviewWidth": 294,
+    "watchfacePreviewHeight": 350,
+    "osVersion": "4.4.0",
+    "productionId": [
+      240
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260417/3cf262c7a46b145e9882fe6b18b4f9fe.png"
   }
 ]
