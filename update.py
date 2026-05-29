@@ -13,7 +13,7 @@ ZEUS_DEVICES_URL = "https://upload-cdn.zepp.com/zeppos/devkit/zeus/v1/devices.js
 
 PRODUCTION_ID_RANGE = [240, 270]
 
-ZEPP_VERSION = "10.2.5-play_151830"
+ZEPP_VERSION = "10.3.1-play_151855"
 ZEPP_USER_AGENT = f"Zepp/{ZEPP_VERSION.split('_')[0]} (2203129G; Android 14; Density/2.75)"
 ZEPP_VERSION_IV = "_".join(list(ZEPP_VERSION.split("_")[::-1]))
 
