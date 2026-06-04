@@ -1052,5 +1052,72 @@
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260417/3cf262c7a46b145e9882fe6b18b4f9fe.png"
+  },
+  {
+    "id": "balance_ultra",
+    "deviceName": "Amazfit Balance Ultra",
+    "alternativeDeviceNames": [
+      "Amazfit Balance Ultra"
+    ],
+    "deviceSource": [
+      11075840,
+      11075841,
+      11092224,
+      11092225
+    ],
+    "chipset": "zps",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.4.0",
+    "productionId": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260514/359afd7d8318ace5861fc5b9edc2e90c.png"
+  },
+  {
+    "id": "balance3",
+    "deviceName": "Amazfit Balance 3",
+    "alternativeDeviceNames": [
+      "Amazfit Balance 3",
+      "Amazfit Balance 3 Ti"
+    ],
+    "deviceSource": [
+      11141376,
+      11141377,
+      11141379,
+      11145472,
+      11145473,
+      11145475
+    ],
+    "chipset": "zps",
+    "screenShape": "round",
+    "screenWidth": 480,
+    "screenHeight": 480,
+    "screenRadius": 240,
+    "iconSize": 248,
+    "physicalKeysCount": "4",
+    "watchfacePreviewWidth": 324,
+    "watchfacePreviewHeight": 324,
+    "osVersion": "4.4.0",
+    "productionId": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260520/a0792217e4111138decc3d0b936ec3fc.png"
   }
 ]

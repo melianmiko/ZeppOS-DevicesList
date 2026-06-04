@@ -135,6 +135,20 @@ def fetch_latest_release(device, production, application):
 
 
 # -------------------------------------------------
+#                   Fetch zepp version
+# -------------------------------------------------
+
+try:
+    pprint(f"Fetching latest Zepp version...")
+    r = requests.get("https://ze.mmk.pw/api/constants")
+    d = r.json()
+    ZEPP_VERSION = d['zeppVersion']
+    ZEPP_VERSION_IV = d['zeppVersionIv']
+    pprint(f"Success, {ZEPP_VERSION}")
+except Exception as e:
+    pprint(f"Failed: {e}")
+
+# -------------------------------------------------
 #                   Restore session
 # -------------------------------------------------
 
