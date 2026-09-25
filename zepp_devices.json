@@ -28,6 +28,30 @@
     "apiVersion": "3.6.0"
   },
   {
+    "id": "trex_dual_solar",
+    "deviceName": "T-Rex Dual Solar",
+    "deviceSource": [
+      11403520
+    ],
+    "chipset": "apollo",
+    "screenShape": "round",
+    "screenWidth": 456,
+    "screenHeight": 456,
+    "screenRadius": 228,
+    "iconSize": 248,
+    "physicalKeysCount": 4,
+    "watchfacePreviewWidth": 360,
+    "watchfacePreviewHeight": 360,
+    "osVersion": "4.4.0",
+    "productionId": [
+      null
+    ],
+    "application": "com.huami.midong",
+    "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260723/fed95578ac401568fc6c4455c26e42ca.png",
+    "alternativeDeviceNames": [],
+    "apiVersion": "4.2.0"
+  },
+  {
     "id": "active",
     "deviceName": "Active",
     "deviceSource": [
@@ -266,7 +290,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.3.0",
+    "osVersion": "4.4.0",
     "productionId": [
       240,
       240,
@@ -703,7 +727,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.3.0",
+    "osVersion": "4.4.0",
     "productionId": [
       240,
       240,
@@ -876,7 +900,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.3.0",
+    "osVersion": "4.4.0",
     "productionId": [
       240,
       240,
@@ -906,7 +930,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.3.0",
+    "osVersion": "4.4.0",
     "productionId": [
       240,
       240,
