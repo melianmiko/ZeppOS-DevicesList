@@ -31,9 +31,10 @@
     "id": "trex_dual_solar",
     "deviceName": "T-Rex Dual Solar",
     "deviceSource": [
-      11403520
+      11403520,
+      11403521
     ],
-    "chipset": "apollo",
+    "chipset": "zps",
     "screenShape": "round",
     "screenWidth": 456,
     "screenHeight": 456,
@@ -42,13 +43,16 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 360,
     "watchfacePreviewHeight": 360,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
+      null,
       null
     ],
     "application": "com.huami.midong",
     "deviceImage": "https://store-cdn.zepp.com/light-app-store/20260723/fed95578ac401568fc6c4455c26e42ca.png",
-    "alternativeDeviceNames": [],
+    "alternativeDeviceNames": [
+      "Amazfit T-Rex Dual Solar"
+    ],
     "apiVersion": "4.2.0"
   },
   {
@@ -290,7 +294,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -727,7 +731,7 @@
     "physicalKeysCount": 4,
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -802,7 +806,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -832,7 +836,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -900,7 +904,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -930,7 +934,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -959,7 +963,7 @@
     "physicalKeysCount": "2",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.2.0",
+    "osVersion": "4.4.0",
     "productionId": [
       240,
       240
@@ -988,7 +992,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "4.3.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -1018,7 +1022,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 314,
     "watchfacePreviewHeight": 314,
-    "osVersion": "4.3.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240,
@@ -1046,7 +1050,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       240,
       240
@@ -1098,7 +1102,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       null,
       null,
@@ -1132,7 +1136,7 @@
     "physicalKeysCount": "4",
     "watchfacePreviewWidth": 324,
     "watchfacePreviewHeight": 324,
-    "osVersion": "4.4.0",
+    "osVersion": "5.0.0",
     "productionId": [
       null,
       null,
